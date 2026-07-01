@@ -1,0 +1,432 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+body > * {
+    position: relative;
+    z-index: 1;
+}
+
+.video-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.content{
+        color:white;
+        text-align:center;
+        margin-top:250px;
+        font-size:40px;
+        font-family:Arial, sans-serif;
+        padding-bottom: 30px;
+        }
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transform: translateY(-60px);
+    padding-top: 5%;
+    border-radius: 4%;
+}
+
+.logo img{
+width: 250px;
+height: 250px;
+
+}
+
+.header{
+    max-width: 500px;
+}
+
+.header h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.header p{
+color: aliceblue;
+font-size: 35px;
+    line-height: 1.6;
+}
+
+button{
+    align-items: center;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color:aliceblue;
+    transition: 0.3s;
+    
+    
+}
+
+
+button:hover{
+    transform: translateY(-3px);
+}
+
+.idea{
+    color: aliceblue;
+    text-align:center;
+    padding:80px 50px;
+}
+
+.idea h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.extra{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+    
+}
+.learn{
+    color: black;
+    width:250px;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.learn:hover{
+    transform: translateY(-10px);
+}
+
+.learn h1{
+font-size: 50px;
+}
+
+.learn h3{
+    color: #120b23;
+}
+
+
+.skill{
+    color: black;
+    width:250px;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.skill:hover{
+    transform: translateY(-10px);
+}
+
+.skill h1{
+font-size: 50px;
+}
+
+.skill h3{
+    color: #120b23;
+}
+
+.perform{
+    color: black;
+    width:250px;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.perform:hover{
+    transform: translateY(-10px);
+}
+
+.perform h1{
+font-size: 50px;
+}
+
+.perform h3{
+   color: #120b23;
+}
+
+.page-center {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.login{
+    background-color: whitesmoke;
+    width: min(100%, 450px);
+    border-radius: 40px;
+    padding: 30px 25px;
+}
+
+.log{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.instruction{
+    width: min(100%, 840px);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login form{
+    display: grid;
+    gap: 18px;
+    font-size: 20px;
+}
+
+.login input{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    padding: 0 12px;
+}
+
+.login button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(7, 7, 7);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    color: azure;
+}
+
+.login button:hover{
+    transform: translateY(-3px);
+}
+
+.login h2{
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.instruct {
+    background:whitesmoke;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.instruct h3 {
+    color: black;
+    margin: 20px 0 15px 0;
+    font-size: 18px;
+}
+
+.instruct ul {
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.instruct li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #38152e;
+}
+
+.important {
+    background-color: #0e010d;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+
+.instruct .btn {
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #0e010d;
+    color: whitesmoke;
+
+}
+
+.instruct .btn2{
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #0e010d;
+    color: whitesmoke;
+}
+
+.quest{
+    background-color: whitesmoke;
+    width: min(100%, 450px);
+    border-radius: 40px;
+    padding: 30px 25px;
+}
+
+.question{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 40px;
+}
+
+.quest{
+    background-color: whitesmoke;
+    width: min(100%, 780px);
+    border-radius: 28px;
+    padding: 30px 30px 24px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
+}
+
+.quest form{
+    display: grid;
+    gap: 18px;
+    font-size: 18px;
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.quest h3{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.quest input[type="radio"]{
+    margin: 0px;
+    accent-color: #0e010d;
+}
+
+.quest button{
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(7, 7, 7);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 360px;
+    height: 46px;
+    color: azure;
+    align-self: center;
+}
+
+.quest button:hover{
+    transform: translateY(-3px);
+}
+
+.quest label,
+.quest input {
+    display: inline-block;
+}
+
+.quest input + span {
+    display: inline-block;
+}
+
+
+.quest label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+
+}
+
+
+.result .btn2{
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #0e010d;
+    color: whitesmoke;
+}
+
+.result .btn3{
+    margin-top: 30px;
+    margin-right: 10px;
+    background-color: #0e010d;
+    color: whitesmoke;
+
+}
+
+/* Result page specific styles */
+.result-page {
+    background-color: #000;
+    color: #fff;
+}
+
+.result-page .instruct {
+    background-color: transparent;
+    color: #fff;
+}
+
+.result-page #result {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.result-page .instruction {
+    text-align: center;
+}
+
+.result-page .btn2,
+.result-page .btn3 {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 12px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.result-page .btn3 {
+    margin-right: 18px; /* space between Retake and Exit */
+}
+
+.result-page .btn2,
+.result-page .btn3 {
+    margin-top: 20px;
+}
